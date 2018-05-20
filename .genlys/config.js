@@ -9,7 +9,7 @@ module.exports = {
         },
         'app': {
             'html': 'app/**/*.html',
-            'stylus': ['app/stylus/*.styl', 'app/lib/css/bootstrap.min.css'],
+            'stylus': ['app/stylus/*.styl'],
             'images': 'app/images/**/*.*',
             'fonts': 'app/fonts/**/*.*',
             'scripts': ['app/js/**/*.js', 'bower_components/jQuery/dist/jquery.min.js']

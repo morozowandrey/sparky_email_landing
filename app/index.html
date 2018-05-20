@@ -1,20 +1,66 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>skeleton</title>
+    <title>Sparky</title>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Sparky - нетворкинг и бизнес знакомства">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
+    <div class="flow-wrapper flex">
+        <header class="header">
+            <a href="https://sparkyspot.com" class="header-logo">
+                <img src="images/header-logo.png" alt="Sparky logo" class="header-logo__image">
+            </a>
+            <div class="header-nav">
+                <a href="https://sparkyspot.com" class="header-nav__item">Что такое Sparky?</a>
+                <a href="https://sparkyspot.com" class="header-nav__item">Контакты</a>
+            </div>
+        </header>
 
-<h1>fuck what they say</h1>
+        <main class="main wrapper">
+            <div class="main-info">
+                <p class="main-info__heading">Новая эра общения</p>
+                <h1 class="main-info-caption">
+                    Присоеденись
+                    <br>
+                    <span class="main-info-caption__part">к Sparky</span>
+                    <span class="main-info-caption__part2">первым!</span>
+                </h1>
+                <p class="main-info__text">Sparky помогает быстро находить новые контакты, партнеров и идеи в любой сфере. Развивать, усиливать свои
+                    проекты и окружение с новыми вдохновленными людьми. Мы сейчас трудимся над созданием Sparky, оставь свой
+                    email и мы отправитм тебе ссылку на приложение одному из первых!</p>
+                <a href="https://sparkyspot.com" class="main-info__site-link">Узнать больше о Sparky</a>
+            </div>
 
-<script src="js/main.js"></script>
+            <div class="main-form">
+                <div class="main-form-particle"></div>
+                <form action="" class="form">
+                    <input type="text" class="form-name" name="name" placeholder="Ваше Имя">
+                    <input type="text" class="form-email" name="email" placeholder="Ваш Email">
+                    <button class="form-submit" type="submit">присоедениться</button>
+                </form>
+                <p class="main-form__text">Примерное ожидание 11.11.11</p>
+            </div>
+        </main>
+
+        <footer class="footer flex flex_center">
+            <p class="footer__copyright">© 2018 Sparky. All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
