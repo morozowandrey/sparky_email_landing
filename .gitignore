@@ -2,4 +2,12 @@
 dev/
 node_modules/
 bower_components/
-debug.log/
+debug.log/"sendgrid.env" 
+"sendgrid.env" 
+"sendgrid.env" 
+"sendgrid.env" 
+"sendgrid.env" 
+"sendgrid.env" 
+"sendgrid.env" 
+"sendgrid.env" 
+"sendgrid.env"  source ./sendgrid.env

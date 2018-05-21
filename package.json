@@ -14,5 +14,8 @@
     "gulp-stylus": "^2.6.0",
     "gulp-sourcemaps": "^2.6.1",
     "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1"
   }
 }
